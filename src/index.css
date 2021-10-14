@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f6f6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.heading {
+  background-color: #287094;
+  height: 200px;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.main {
+  margin: auto;
+  margin: 30px 100px;
+}
+
+.profile-pic {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width: 200px;
+  float: left;
+  border: 2px black solid;
+  border-radius: 50%;
+}
+
+.heading-info {
+  margin-left: 275px;
+  margin-top: 150px;
+  color: white;
+}
+
+.heading-link {
+  float: right;
+}
+
+.sidenav-content {
+  display: flex;
+  margin: 10px 0;
+}
+
+.sidenav {
+  background-color: #d4d4ce;
+  flex-basis: 275px;
+  margin-right: 5px;
+  padding: 20px;
+  padding-top: 100px;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.content {
+  background-color: #023246;
+  flex-grow: 1;
+  color: white;
+  margin-left: 5px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #000000;
+  opacity: 75%;
+}
+
+button:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+button.current {
+  background-color: #023246;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.year {
+  float: right;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+img.skill-pic {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+img.hobby-pic {
+  width: 150px;
+  margin: auto;
+  display: block;
+}
+
+img.social-button {
+  width: 25px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.skillsContainer {
+  display: flex;
+  margin: 20px;
+}
+
+.skill {
+  flex: 1;
+  align-items: center;
+}
